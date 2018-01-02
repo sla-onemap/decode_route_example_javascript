@@ -42,7 +42,7 @@
          			var geometryOfRoute = sampleRoute.route_geometry;
 
          			//Decode polyine to 6 decimal points
-         			var polyline = L.polyline(L.PolylineUtil.decode(geometryOfRoute, 6),{
+         			var polyline = L.polyline(L.PolylineUtil.decode(geometryOfRoute, 5),{
 												    color: "purple",
 												    weight: 5,
 												    smoothFactor: 1
